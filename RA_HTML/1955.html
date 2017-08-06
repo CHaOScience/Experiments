@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <base href='http://www.chaosscience.org.uk/node/1955' />
+    <title>Sorting</title>
+    <script type="text/javascript" src="http://www.chaosscience.org.uk/sites/default/files/js/js_d08d1a5b7babfcd4e708140a5476b994.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" } });
+//--><!]]>
+</script>
+        <meta name='robots' content='noindex, nofollow' />
+    <link rel='shortcut icon' href='/sites/default/files/faviconclear.ico' type='image/x-icon' />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/panels/css/panels.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/print/css/print.css?m" />
+  </head>
+  <body>
+        <div class="print-logo"><img src="http://www.chaosscience.org.uk/sites/default/files/garland_logo.png" alt="CHaOS Science Roadshow" title=""  class="print-logo" id="logo" /></div>
+    <div class="print-site_name">Published on <em>CHaOS Science Roadshow</em> (<a href="http://www.chaosscience.org.uk">http://www.chaosscience.org.uk</a>)</div>
+    <p />
+    <div class="print-breadcrumb"><a href="/">Home</a> &gt; Sorting</div>
+    <hr class="print-hr" />
+    <h1 class="print-title">Sorting</h1>
+    <div class="print-content"><div id="node-1955" class="node">
+
+
+
+      <span class="submitted">Fri, 10/02/2017 - 00:42 — Tdwebster</span>
+  
+  <div class="content clear-block">
+    <fieldset class="fieldgroup group-intro"><legend>Introduction</legend><div class="field field-type-text field-field-public-summary">
+      <div class="field-label">Public summary:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>How do computers work? This experiment gets you to think like a computer and try and put a selection of numbers into order.</p>
+        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-public-visibility">
+      <div class="field-label">Public visibility:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Demonstrators        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-experiment-useful-info"><legend>Useful information</legend><div class="field field-type-text field-field-kit">
+      <div class="field-label">Kit List:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>Some laminated number cards or playing cards<br />
+laminated instructions for sorting algorithms<br />
+uncooked spaggetti</p>
+        </div>
+        </div>
+</div>
+<div class="field field-type-text field-field-packing">
+      <div class="field-label">Packing Away:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>maths box</p>
+        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-explanation"><legend>Explanation</legend><div class="field field-type-text field-field-explanation">
+      <div class="field-label">Explanation:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>Introduce the problem, why do we want to sort things? People's names in alphabetical order makes them easier to find.<br />
+Explain how computers work with fixed memory locations and we can ask people to swap positions.<br />
+Pick one person to be the computer and give everyone else a number and get them to face away from the computer the computer can ask to to compare which of two people have a larger number and ask people to swap places.<br />
+Get one people to be the computer and ask them to sort the other participants (each given a number card) into order by asking people to swap places and for comparisons.<br />
+Get them to explain how they picked who to swap and who to compare.<br />
+Computers have rules which tell them how to decide when to compare and swap people. (you may want to use the words algorithm or program). Here are some common sorting algos.<br />
+BUBBLE SORT<br />
+1) Start at the beginning of the list and compare each adjacent pair. If they're in the wrong order ask them to swap<br />
+2) Start again from the beginning doing the same and repeat once for each number to be sorted<br />
+We can ask people what this does? It moves the largest element to the end of the list (they bubble to the top). This means we don't actually have to check the last elements as they're already the biggest. This saves a bit of effort. For advanced groups this take a quadratic amount of operations and this saving is linear, i.e. doesn't make much difference in the long run.<br />
+SELECTION SORT<br />
+1) Look at the unsorted section. Compare people along the line with the person who is smallest so far<br />
+2) Swap this person to the first of the unsorted positions. Repeat.<br />
+This is quite like Bubble sort in that we select smaller elements and move them to the front. However what we do is a lot less swaps, we do a lot of comparisons and remember how many people we've sorted and who's the smallest so far.  Imagine sorting fragile things or large things fewer swaps is better. Still quadratic in comparisons but linear in swaps.<br />
+INSERTION SORT (allow people to insert a person between two others)<br />
+1) Take the first unsorted element. Compare against everything before until you find something it's bigger than and insert it there.<br />
+2) Repeat until everything sorted.<br />
+This seems very much like Selection sort, really it is however instead of searching through unsorted things to find the biggest we're finding the correct place for the next element to go. You can see if they can figure out how this new insert operations works in terms of swaps. It turns out to be start at the one on the left and swap pairs upto the right then do the same back. This is again a lot of swaps.</p>
+<p>It's probably worth comparing when these are better, it really depends on if it's easy to insert things (imagine cards, these are easy to insert and there's no need for a complex sequence of swaps). Insertion works well if everything is "nearly" in the right order before you start. Imagine how quickly you can add one new thing to a sorted list.</p>
+<p>More complicated sorting algorithms exist here are some nice ones that are similar<br />
+1) Cocktail sort - like bubble sort but once we reach the end we go back down the list in the opposite direction<br />
+2) Comb sort - we get finer and finer in our sorting, with n items we compare the end points, then items (1,n-1) and (2,n), then compare those n-3 apart etc.<br />
+Why do these exist? Get people to come up with orders that make lots of people swap in bubble sort (sorted in the opposite order). These get dealt with faster by these. These are called hares (move quickly to the right) and tortoises (move slowly to the left).</p>
+<p>We also have recursive sorts you can talk about<br />
+QUICK SORT<br />
+1) pick an element<br />
+2) compare everything to this element and insert to left or right based on this.<br />
+3) repeat on the two new smaller sections<br />
+Why is this good? well imagine multiple computers they can each now sort the new halves. We also can with good choice of pivot reduce down to half in each side. This is actually less than a quadratic amount of work (with a good choice of pivot)</p>
+<p>Also more specialised<br />
+COUNT SORT<br />
+1) keep a tally of how many times each thing appears then output that many of the things at the end<br />
+great for very few numbers<br />
+LSD RADIX SORT<br />
+1)sort everything based on the least sig digit, then second least, etc<br />
+#throwback to punch cards<br />
+BONGO SORT<br />
+Randomly shuffle check if in order if so stop.<br />
+Hopefully they should see this is not the best method but it's an interesting problem of how long you'd expect it to take (n! possible orderings and 1 correct one (assuming no equlaity))<br />
+SPAGHETTI SORT<br />
+for the list cut pieces of spaghetti to each length and then hold them all in a fist an press against a table. Then press the other palm down till it touches one piece of spaghetti this is the largest. remove and repeat. This is linear in time? why so good our hand is essentially doing parallel comparisons.</p>
+        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-riskassessment"><legend>Risk Assessment</legend><div class="field field-type-date field-field-experiment-ra-checked">
+      <div class="field-label">Date risk assesment last checked:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <span class="date-display-single">Thu, 09/02/2017</span>        </div>
+        </div>
+</div>
+<div class="field field-type-userreference field-field-experiment-ra-checker">
+      <div class="field-label">Risk assesment checked by:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Tdwebster        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-experiment-ra-checked-2">
+      <div class="field-label">Date risk assesment double checked:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <span class="date-display-single">Fri, 10/02/2017</span>        </div>
+        </div>
+</div>
+<div class="field field-type-userreference field-field-ra-checker-2">
+      <div class="field-label">Risk assesment double-checked by:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Andrew Sellek        </div>
+        </div>
+</div>
+<div class="field field-type-text field-field-riskassessment">
+      <div class="field-label">Risk Assessment:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <table border=1>
+<tr>
+<td>DESCRIPTION</td>
+<td>
+Following the numbers on a card around a circle
+</td>
+</tr>
+<tr>
+<td>RISKS</td>
+<td>
+1.     Children eating raw spaghetti<br /><br />
+2.	Spaghetti trip hazard<br />
+</td>
+</tr>
+<tr>
+<td>ACTION TO BE TAKEN TO MINIMISE RISKS</td>
+<td>
+1. Prevent loose spaghetti being left accessible. especially with young children<br />
+2. Pick up dropped spagetti
+</td>
+</tr>
+<tr>
+<td>ACTION TO BE TAKEN IN CASE OF ACCIDENT</td>
+<td>
+1. Call first aider if child swallows, if choking encourage child to cough.<br />
+2. Call first aider in case of injury 
+</td></tr></table>        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-electricra">
+    <div class="field-items">
+            <div class="field-item odd">
+                    0        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-darkroom">
+    <div class="field-items">
+            <div class="field-item odd">
+                    0        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-experiment-images"><legend>Images</legend><div class="field field-type-filefield field-field-experiment-logo">
+      <div class="field-label">Experiment logo:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img  class="imagefield imagefield-field_experiment_logo" width="400" height="400" alt="" src="http://www.chaosscience.org.uk/sites/default/files/imagefield_default_images/unknownexpt.png?1321624030" />        </div>
+        </div>
+</div>
+</fieldset>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_134 first"><a href="http://www.chaosscience.org.uk/taxonomy/term/134" rel="tag" title="">Maths</a> <span class="print-footnote">[1]</span></li>
+<li class="taxonomy_term_24"><a href="http://www.chaosscience.org.uk/taxonomy/term/24" rel="tag" title="A standard CHaOS experiment, useable for all hands-on events.">Standard</a> <span class="print-footnote">[2]</span></li>
+<li class="taxonomy_term_22 last"><a href="http://www.chaosscience.org.uk/taxonomy/term/22" rel="tag" title="This experiment doesn&#039;t actually exist yet, but might in the future!">In development</a> <span class="print-footnote">[3]</span></li>
+</ul></div>
+        </div>
+
+      </div>
+
+</div>
+</div>
+    <div class="print-footer"><b>
+<div id="block-block-3" class="clear-block block block-block">
+
+
+  <div class="content"><p><img http://www.chaosscience.org.uk//sites/default/files/images/smallborder.preview.png' /></p>
+</div>
+</div>
+</div>
+    <hr class="print-hr" />
+    <div class="print-source_url"><strong>Source URL (retrieved on <em>06/08/2017 - 11:49</em>):</strong> <a href="http://www.chaosscience.org.uk/node/1955">http://www.chaosscience.org.uk/node/1955</a></div>
+    <div class="print-links"><p><strong>Links:</strong><br />[1] http://www.chaosscience.org.uk/taxonomy/term/134<br />
+[2] http://www.chaosscience.org.uk/taxonomy/term/24<br />
+[3] http://www.chaosscience.org.uk/taxonomy/term/22<br />
+</p></div>
+      </body>
+</html>

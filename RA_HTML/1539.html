@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <base href='http://www.chaosscience.org.uk/node/1539' />
+    <title>Random Walks</title>
+    <script type="text/javascript" src="http://www.chaosscience.org.uk/sites/default/files/js/js_d08d1a5b7babfcd4e708140a5476b994.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" } });
+//--><!]]>
+</script>
+        <meta name='robots' content='noindex, nofollow' />
+    <link rel='shortcut icon' href='/sites/default/files/faviconclear.ico' type='image/x-icon' />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/panels/css/panels.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/print/css/print.css?m" />
+  </head>
+  <body>
+        <div class="print-logo"><img src="http://www.chaosscience.org.uk/sites/default/files/garland_logo.png" alt="CHaOS Science Roadshow" title=""  class="print-logo" id="logo" /></div>
+    <div class="print-site_name">Published on <em>CHaOS Science Roadshow</em> (<a href="http://www.chaosscience.org.uk">http://www.chaosscience.org.uk</a>)</div>
+    <p />
+    <div class="print-breadcrumb"><a href="/">Home</a> &gt; Random Walks</div>
+    <hr class="print-hr" />
+    <h1 class="print-title">Random Walks</h1>
+    <div class="print-content"><div id="node-1539" class="node">
+
+
+
+      <span class="submitted">Mon, 20/01/2014 - 23:15 — zephyrost</span>
+  
+  <div class="content clear-block">
+    <fieldset class="fieldgroup group-intro"><legend>Introduction</legend><div class="field field-type-text field-field-public-summary">
+      <div class="field-label">Public summary:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>See how biased coins and random chance can lead to surprising conclusions.</p>
+        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-public-visibility">
+      <div class="field-label">Public visibility:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Demonstrators        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-experiment-useful-info"><legend>Useful information</legend><div class="field field-type-text field-field-kit">
+      <div class="field-label">Kit List:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>*  Duplo blocks<br />
+*  Dry wipe pen<br />
+*  Duplo baseplates (2 stuck together for the race)<br />
+*  Fair coin (10p)<br />
+*  Biased coin (2p)</p>
+<p>(n.b. if there isn't a biased coin, because it's got lost for any reason, you can always just use a bit of sleight of hand and lie, saying it's heads two thirds of the time...)</p>
+        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-explanation"><legend>Explanation</legend><div class="field field-type-text field-field-explanation">
+      <div class="field-label">Explanation:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>A variety of experiments can be done with random walks, showing not only the idea of a biased probability, but also that even when an outcome is weighted one way, random chance can lead it to come out the opposite.</p>
+<p><b>Setup</b><br />
+There are a few fun games to play here. Most involve building up individual children's results into a nice smooth distribution, by building duplo bricks with their names on them into a nice smooth wall.</p>
+<p><b>Explanation and Demonstrating</b></p>
+<p>The simplest thing to start with is with a brick on the middle of a baseplate and an unbiased coin. If you set the rule that when the brick gets to an edge it falls off and the game is over, that a head moves you in one direction, and a tails in the other. They should see that there's a good bit of back and forth, but eventually you should end up dropping off one side or the other. </p>
+<p>Then try doing the same with the biased coin (roughly 66% of the time it gives heads) making sure the coin is allowed to land on the table (preferably on a piece of paper to damp bounces and speed up the whole process), show that if repeated a few times the brick has a tendency to fall off the same side.</p>
+<p>Alternatively, as the first method can sometimes take too long, use about six bricks build a tower: placing the next brick on top of the previous one and one set of teeth to the side depending on the toss being heads or tails. Then repeat this a couple of times with both coins and you should see that with the biased coin the tower of bricks tends to lean to one side.</p>
+<p>Now set up a few bricks, all starting different distances along the board, and watch which one is the last one left, it should be the one initially roughly two thirds of the way along, not as many people might assume when first introduced to a biased coin, as far from the side it's biased towards as possible.</p>
+<p>--ORIGINAL PLAN--</p>
+<p>Finally, you can build a really lovely distribution by starting the block at one end of two mats put together and using the biased coin. With every flip you move the block one space forwards (one block length, not one set of teeth) and one space in whichever direction the coin dictates. When the blocks reach either side, that's where they stop. Keep everyone else's blocks on the board as well, and a nice distribution should build up. It should look, very roughly speaking, like a pear cut in half, with a bulge at the near end and then at tail trailing off. Write their name on the block with the dry wipe pen, you'd be surprised how keen they are to come back later and see how the distribution's evolved around their block.</p>
+<p>You should see roughly the same distribution on both sides, just with significantly less blocks on the side that is biased against. You can discuss with them things like why there are no blocks at all in the first few spaces, why there is a peak (it roughly corresponds to the balance between a point which there are a lot of various paths to, and where the probability the brick hasn't already fallen off the board, balance out).</p>
+<p>--ALTERNATIVE PLAN-- (experiment still developing so let us know what works best!)</p>
+<p>Some demonstrators, rather than building up a distribution over the day, which can take a long time and still won't look exactly smooth even after all the pieces have been used, prefer to just trace the path of one random walk, placing a new brick for each step. This gives a clearer memory of the rambling nature of the walk, and there should be sufficient bricks for two or three paths simultaneously.</p>
+<p> This also helps defend against the odd child who comes along and tries to tear the whole thing down...</p>
+<p>It may be the better options for events with younger children, where the concept of a distribution is a bit much, and also it just looks really cool!</p>
+<p>--Real World Applications--</p>
+<p>If you fancy it, theirs a great analogy between this experiment and genetic drift. Genes that develop in populations of animals normally have some selective bias for either adoption throughout the population or deletion. But genetic drift is the process of random genetic evolution, and has a strong analogy in a biased coin toss. From this it's possible to see that even a positive evolution (one that natural selection favours some percentage of the time) may be deleted by chance, or a deleterious one spread throughout the entire population.</p>
+<p>The key idea here is that when there is one or more boundary, i.e. the edge of the board, we see markedly different behaviour to that we'd expect for an infinite number of tests, where deleterious mutations would never remain in the population and we'd always expect to the brick to end up on the side that it's biased towards eventually.</p>
+<p>There are many other examples of random walks in nature, like photons in the solar atmosphere which take thousands of years to complete a 'drunkards walk' from the centre to surface of the sun and only eight minutes to make it all the way out to earth. More complex examples include the game of life, a simulation of how populations grow, receded and migrate over time. You could even mention the fact that for some random walks, even in infinite time you would not expect it to pass through all points. </p>
+<p>--Transience/Recurrence--<br />
+By flipping two coins you can do a random walk in 2d, ask people if you think you'd be able to get back to the start, will it take longer to fall off an edge. Then repeat in 3d where this isn't true.</p>
+        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-riskassessment"><legend>Risk Assessment</legend><div class="field field-type-date field-field-experiment-ra-checked">
+      <div class="field-label">Date risk assesment last checked:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <span class="date-display-single">Mon, 06/02/2017</span>        </div>
+        </div>
+</div>
+<div class="field field-type-userreference field-field-experiment-ra-checker">
+      <div class="field-label">Risk assesment checked by:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Mithuna Yoganathan        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-experiment-ra-checked-2">
+      <div class="field-label">Date risk assesment double checked:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <span class="date-display-single">Wed, 08/02/2017</span>        </div>
+        </div>
+</div>
+<div class="field field-type-userreference field-field-ra-checker-2">
+      <div class="field-label">Risk assesment double-checked by:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Tdwebster        </div>
+        </div>
+</div>
+<div class="field field-type-text field-field-riskassessment">
+      <div class="field-label">Risk Assessment:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <table border=1>
+<tr>
+<td>DESCRIPTION</td>
+<td>
+See how biased coins and random chance can lead to surprising conclusions.
+</td>
+</tr>
+<tr>
+<td>RISKS</td>
+<td>
+1.     Swallowing duplo blocks and coins<br /><br />
+2.     Tossed coins flying off and hitting someone
+</td>
+</tr>
+<tr>
+<td>ACTION TO BE TAKEN TO MINIMISE RISKS</td>
+<td>
+1.	 Duplo blocks should be sufficiently large that they are safe from swallowing for all ages, but keep an eye out just in case. Don't let small children handle coins.<br />
+2.      Check you can flip a coin without losing control of it, otherwise just spin it on the table. It's perfectly fine to let the children toss the coin themselves, but make sure they're capable of doing it safely with a trial flip first.
+</td>
+</tr>
+<tr>
+<td>ACTION TO BE TAKEN IN CASE OF ACCIDENT</td>
+<td>
+1. Call first aider if child swallows, if choking encourage child to cough.<br />
+2. Call first aider in case of injury
+</td>
+</tr>
+</table>
+        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-electricra">
+    <div class="field-items">
+            <div class="field-item odd">
+                    0        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-darkroom">
+    <div class="field-items">
+            <div class="field-item odd">
+                    0        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-experiment-images"><legend>Images</legend><div class="field field-type-filefield field-field-experiment-logo">
+      <div class="field-label">Experiment logo:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img  class="imagefield imagefield-field_experiment_logo" width="400" height="400" alt="" src="http://www.chaosscience.org.uk/sites/default/files/imagefield_default_images/unknownexpt.png?1321624030" />        </div>
+        </div>
+</div>
+<div class="field field-type-filefield field-field-experiment-photos">
+      <div class="field-label">Experiment photos:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img  class="imagefield imagefield-field_experiment_photos" width="640" height="427" alt="" src="http://www.chaosscience.org.uk/sites/default/files/exptimages/explanatory/IMG_3139.JPG?1395579575" />        </div>
+        </div>
+</div>
+</fieldset>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_131 first"><a href="http://www.chaosscience.org.uk/taxonomy/term/131" rel="tag" title="">Maths</a> <span class="print-footnote">[1]</span></li>
+<li class="taxonomy_term_134"><a href="http://www.chaosscience.org.uk/taxonomy/term/134" rel="tag" title="">Maths</a> <span class="print-footnote">[2]</span></li>
+<li class="taxonomy_term_133"><a href="http://www.chaosscience.org.uk/taxonomy/term/133" rel="tag" title="">Probabilities</a> <span class="print-footnote">[3]</span></li>
+<li class="taxonomy_term_24"><a href="http://www.chaosscience.org.uk/taxonomy/term/24" rel="tag" title="A standard CHaOS experiment, useable for all hands-on events.">Standard</a> <span class="print-footnote">[4]</span></li>
+<li class="taxonomy_term_19 last"><a href="http://www.chaosscience.org.uk/taxonomy/term/19" rel="tag" title="Experiment has working equipment at the time of last update, and is available for events.">Active</a> <span class="print-footnote">[5]</span></li>
+</ul></div>
+        </div>
+
+      </div>
+
+</div>
+</div>
+    <div class="print-footer"><b>
+<div id="block-block-3" class="clear-block block block-block">
+
+
+  <div class="content"><p><img http://www.chaosscience.org.uk//sites/default/files/images/smallborder.preview.png' /></p>
+</div>
+</div>
+</div>
+    <hr class="print-hr" />
+    <div class="print-source_url"><strong>Source URL (retrieved on <em>06/08/2017 - 11:49</em>):</strong> <a href="http://www.chaosscience.org.uk/node/1539">http://www.chaosscience.org.uk/node/1539</a></div>
+    <div class="print-links"><p><strong>Links:</strong><br />[1] http://www.chaosscience.org.uk/taxonomy/term/131<br />
+[2] http://www.chaosscience.org.uk/taxonomy/term/134<br />
+[3] http://www.chaosscience.org.uk/taxonomy/term/133<br />
+[4] http://www.chaosscience.org.uk/taxonomy/term/24<br />
+[5] http://www.chaosscience.org.uk/taxonomy/term/19<br />
+</p></div>
+      </body>
+</html>
