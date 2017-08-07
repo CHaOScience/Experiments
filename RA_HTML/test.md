@@ -1,11 +1,11 @@
-<img src="http://www.chaosscience.org.uk/sites/default/files/garland_logo.png" alt="CHaOS Science Roadshow" id="logo" class="print-logo" />
+
 
 ------------------------------------------------------------------------
 
 Colour mixing
 =============
 
-<span class="submitted">Sat, 30/06/2012 - 21:37 — Philip</span>
+*Sat, 30/06/2012 - 21:37 — Philip*
 ## Introduction
 
 How many colours can you make? With our coloured lights, find out how you can make every colour imaginable from just three colours, find out how your computer monitor works and get to see some really funky shadows!
@@ -39,11 +39,11 @@ The three lamps in this experiment each contain an LED focussed to produce a tig
 3
 
 ## Risk Assessment
-Date risk assesment last checked:     <span class="date-display-single">Sun, 18/12/2016</span>
+Date risk assesment last checked:     *Sun, 18/12/2016*
 
-Risk assesment checked by:            Andrei Ruskuc
+Risk assesment checked by:            *Andrei Ruskuc*
 
-Date risk assesment double checked:   <span class="date-display-single">Sun, 29/01/2017</span>
+Date risk assesment double checked:   *Sun, 29/01/2017*
 
 Risk assesment double-checked by:     bakrill
 
@@ -78,26 +78,23 @@ This experiment is sometimes run in a darkroom, see separate risk assessment.
 
 ## Images
 ### Experiment logo: 
-<img src="http://www.chaosscience.org.uk/sites/default/files/exptimages/logos/colourmix.png?1341088619" class="imagefield imagefield-field_experiment_logo" width="400" height="400" />
+
 
 ### Publicity photo: 
-<img src="http://www.chaosscience.org.uk/sites/default/files/exptimages/publicity/IMG_5560.JPG?1341088620" class="imagefield imagefield-field_experiment_publicity" width="522" height="480" />
 
-![test image](https://raw.githubusercontent.com/CHaOScience/Experiments/fiddling/RA_HTML/testimg.jpg "Test img 1")
 
--   [Darkroom](http://www.chaosscience.org.uk/taxonomy/term/123) <span class="print-footnote">\[1\]</span>
--   [Standard](http://www.chaosscience.org.uk/taxonomy/term/24 "A standard CHaOS experiment, useable for all hands-on events.") <span class="print-footnote">\[2\]</span>
--   [Physics](http://www.chaosscience.org.uk/taxonomy/term/14) <span class="print-footnote">\[3\]</span>
--   [Active](http://www.chaosscience.org.uk/taxonomy/term/19 "Experiment has working equipment at the time of last update, and is available for events.") <span class="print-footnote">\[4\]</span>
+-   [Darkroom](http://www.chaosscience.org.uk/taxonomy/term/123) [1]
+-   [Standard](http://www.chaosscience.org.uk/taxonomy/term/24 "A standard CHaOS experiment, useable for all hands-on events.") [2]
+-   [Physics](http://www.chaosscience.org.uk/taxonomy/term/14) [3]
+-   [Active](http://www.chaosscience.org.uk/taxonomy/term/19 "Experiment has working equipment at the time of last update, and is available for events.") [4]
 
 ------------------------------------------------------------------------
 
 ### Source URL (retrieved on *06/08/2017 - 11:44*): 
-<http://www.chaosscience.org.uk/node/1039>
+http://www.chaosscience.org.uk/node/1039
 
 ### Links:
 1. http://www.chaosscience.org.uk/taxonomy/term/123
 2. http://www.chaosscience.org.uk/taxonomy/term/24
 3. http://www.chaosscience.org.uk/taxonomy/term/14
 4. http://www.chaosscience.org.uk/taxonomy/term/19
-
