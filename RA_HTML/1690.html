@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <base href='http://www.chaosscience.org.uk/node/1690' />
+    <title>Binary Adder</title>
+    <script type="text/javascript" src="http://www.chaosscience.org.uk/sites/default/files/js/js_d08d1a5b7babfcd4e708140a5476b994.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" } });
+//--><!]]>
+</script>
+        <meta name='robots' content='noindex, nofollow' />
+    <link rel='shortcut icon' href='/sites/default/files/faviconclear.ico' type='image/x-icon' />
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/theme/content-module.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/ctools/css/ctools.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/datepicker.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/date/date_popup/themes/jquery.timeentry.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/filefield/filefield.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/logintoboggan/logintoboggan.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/panels/css/panels.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/cck/modules/fieldgroup/fieldgroup.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/views/css/views.css?m" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/print/css/print.css?m" />
+  </head>
+  <body>
+        <div class="print-logo"><img src="http://www.chaosscience.org.uk/sites/default/files/garland_logo.png" alt="CHaOS Science Roadshow" title=""  class="print-logo" id="logo" /></div>
+    <div class="print-site_name">Published on <em>CHaOS Science Roadshow</em> (<a href="http://www.chaosscience.org.uk">http://www.chaosscience.org.uk</a>)</div>
+    <p />
+    <div class="print-breadcrumb"><a href="/">Home</a> &gt; Binary Adder</div>
+    <hr class="print-hr" />
+    <h1 class="print-title">Binary Adder</h1>
+    <div class="print-content"><div id="node-1690" class="node">
+
+
+
+      <span class="submitted">Thu, 12/02/2015 - 21:13 — tafc2</span>
+  
+  <div class="content clear-block">
+    <fieldset class="fieldgroup group-intro"><legend>Introduction</legend><div class="field field-type-number-integer field-field-public-visibility">
+      <div class="field-label">Public visibility:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Demonstrators        </div>
+        </div>
+</div>
+<div class="field field-type-text field-field-intro">
+    <div class="field-items">
+            <div class="field-item odd">
+                    Adding numbers using a mechanical calculator        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-experiment-useful-info"><legend>Useful information</legend><div class="field field-type-text field-field-kit">
+      <div class="field-label">Kit List:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>The binary adder<br />
+A bag of marbles</p>
+        </div>
+        </div>
+</div>
+<div class="field field-type-text field-field-packing">
+      <div class="field-label">Packing Away:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>It goes into a cardboard box.</p>
+        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-explanation"><legend>Explanation</legend><div class="field field-type-text field-field-explanation">
+      <div class="field-label">Explanation:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>A mechanical binary adder, which adds two numbers represented by marbles.<br />
+Get people to figure out what it does by repeatedly adding one, see if they can spot how to read a number off or add a number other than one. Talk about how this is how computers represent numbers. Why do they use something different? Easy to store in this format instead of 10 possible digits we only have one, we can then store this as +ve or -ve, on/off or something like that.<br />
+There's also options to talk about logic, very easy switches for operations AND and XOR (exclusive or). How do we add numbers using these? AND to see if we need to carry one, XOR tells us if what we need in that bit.<br />
+You can also demonstrate overflow by adding big numbers together.<br />
+You could talk about how computers store negative numbers, sign and magnitude is probably most obvious way of doing it. There's also 2's complement. Or you could talk about fractions and storing the number of halves, quaters... or as numerator denominator.<br />
+If you wanted you can even get people to play about with finger binary.</p>
+        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-riskassessment"><legend>Risk Assessment</legend><div class="field field-type-date field-field-experiment-ra-checked">
+      <div class="field-label">Date risk assesment last checked:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <span class="date-display-single">Fri, 09/12/2016</span>        </div>
+        </div>
+</div>
+<div class="field field-type-userreference field-field-experiment-ra-checker">
+      <div class="field-label">Risk assesment checked by:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Tdwebster        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-experiment-ra-checked-2">
+      <div class="field-label">Date risk assesment double checked:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <span class="date-display-single">Mon, 06/02/2017</span>        </div>
+        </div>
+</div>
+<div class="field field-type-userreference field-field-ra-checker-2">
+      <div class="field-label">Risk assesment double-checked by:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    Mithuna Yoganathan        </div>
+        </div>
+</div>
+<div class="field field-type-text field-field-riskassessment">
+      <div class="field-label">Risk Assessment:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <table border=1>
+<tr>
+<td>DESCRIPTION</td>
+<td>
+A mechanical binary calculator
+</td>
+</tr>
+<tr>
+<td>RISKS</td>
+<td>
+1.      Possibility of sharp edges or splinters on the model, if damaged<br /><br />
+2.      Marbles could present a slip hazard if dropped<br />
+3.      Children may eat marbles
+</td>
+</tr>
+<tr>
+<td>ACTION TO BE TAKEN TO MINIMISE RISKS</td>
+<td>
+1. Check for damage before demonstrating, and avoid knocking or dropping during use<br /><br />
+2. Keep unused marbles in a container, and keep track of how many there are<br />
+3. Watch children with the marbles, only give them one at a time to immediately put in the machine.
+</td>
+</tr>
+<tr>
+<td>ACTION TO BE TAKEN IN THE EVENT OF AN ACCIDENT</td>
+<td>
+<p>Call first aider in event of injury
+</p></td>
+</tr>
+</table>
+        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-electricra">
+    <div class="field-items">
+            <div class="field-item odd">
+                    0        </div>
+        </div>
+</div>
+<div class="field field-type-number-integer field-field-darkroom">
+    <div class="field-items">
+            <div class="field-item odd">
+                    0        </div>
+        </div>
+</div>
+</fieldset>
+<fieldset class="fieldgroup group-experiment-images"><legend>Images</legend><div class="field field-type-filefield field-field-experiment-logo">
+      <div class="field-label">Experiment logo:&nbsp;</div>
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img  class="imagefield imagefield-field_experiment_logo" width="400" height="400" alt="" src="http://www.chaosscience.org.uk/sites/default/files/imagefield_default_images/unknownexpt.png?1321624030" />        </div>
+        </div>
+</div>
+</fieldset>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_153 first"><a href="http://www.chaosscience.org.uk/taxonomy/term/153" rel="tag" title="">Computer Science</a> <span class="print-footnote">[1]</span></li>
+<li class="taxonomy_term_131"><a href="http://www.chaosscience.org.uk/taxonomy/term/131" rel="tag" title="">Maths</a> <span class="print-footnote">[2]</span></li>
+<li class="taxonomy_term_134"><a href="http://www.chaosscience.org.uk/taxonomy/term/134" rel="tag" title="">Maths</a> <span class="print-footnote">[3]</span></li>
+<li class="taxonomy_term_24"><a href="http://www.chaosscience.org.uk/taxonomy/term/24" rel="tag" title="A standard CHaOS experiment, useable for all hands-on events.">Standard</a> <span class="print-footnote">[4]</span></li>
+<li class="taxonomy_term_20 last"><a href="http://www.chaosscience.org.uk/taxonomy/term/20" rel="tag" title="The experiment basically works, but could do with some TLC...">Minor repairs needed</a> <span class="print-footnote">[5]</span></li>
+</ul></div>
+        </div>
+
+      </div>
+
+</div>
+</div>
+    <div class="print-footer"><b>
+<div id="block-block-3" class="clear-block block block-block">
+
+
+  <div class="content"><p><img http://www.chaosscience.org.uk//sites/default/files/images/smallborder.preview.png' /></p>
+</div>
+</div>
+</div>
+    <hr class="print-hr" />
+    <div class="print-source_url"><strong>Source URL (retrieved on <em>06/08/2017 - 11:49</em>):</strong> <a href="http://www.chaosscience.org.uk/node/1690">http://www.chaosscience.org.uk/node/1690</a></div>
+    <div class="print-links"><p><strong>Links:</strong><br />[1] http://www.chaosscience.org.uk/taxonomy/term/153<br />
+[2] http://www.chaosscience.org.uk/taxonomy/term/131<br />
+[3] http://www.chaosscience.org.uk/taxonomy/term/134<br />
+[4] http://www.chaosscience.org.uk/taxonomy/term/24<br />
+[5] http://www.chaosscience.org.uk/taxonomy/term/20<br />
+</p></div>
+      </body>
+</html>

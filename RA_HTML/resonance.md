@@ -1,0 +1,205 @@
+<img src="http://www.chaosscience.org.uk/sites/default/files/garland_logo.png" alt="CHaOS Science Roadshow" id="logo" class="print-logo" />
+
+Published on *CHaOS Science Roadshow* (<http://www.chaosscience.org.uk>)
+
+[Home](http://www.chaosscience.org.uk/) &gt; Resonance
+
+------------------------------------------------------------------------
+
+Resonance
+=========
+
+<span class="submitted">Sat, 19/06/2010 - 21:06 — mnd22</span>
+Introduction
+Public visibility: 
+
+Demonstrators
+
+Teachers
+
+What is the link between earthquakes and cello strings?
+
+Old URL: 
+
+http://www.chaosscience.org.uk/dem/public\_html/article.php?story=2007030211531430
+
+Useful information
+Kit List: 
+
+For earthquakes (large blue box):
+- Earthquake table (wooden box with handle)
+- Sections of tower for the above, made of perspex, magnets and springs.
+- Dog on a swing.
+
+For the cello (green lidded box):
+- Folding mock cello, with removable string
+- Bow and rosin
+- Signal generator
+- Power supply
+- 'Cello driver amplifier
+- Assorted cables for the above
+
+Optional:
+- Set of giant pan pipes
+
+Packing Away: 
+
+Pack into suitable boxes, as above.
+
+Frequency of use: 
+
+5
+
+Explanation
+Explanation: 
+
+It's a collection of experiments illustrating resonance: the Earthquake Table lets you build towers and see what happens to them when vibrated near the resonant frequence, the Dog On A Swing gets across the basic idea of resoanance, the Giant Pan Pipes show how resonant air makes music, and the 'cello is a string driven by an oscillating electromagnet, which gets excited at resonance.
+
+\*\*\* OVERVIEW \*\*\*
+
+When you shake things too quickly or slowly, nothing much happens, but if you shake them at just the right rate - the rate they naturally shake at if you push them - the shaking builds up and builds up.
+
+Possible activities:
+- Trying to make the tower fall over by wobbling it at just the right rate.
+- Comparing this to pushing a dog on a swing.
+- Making the 'cello string resonate by adjusting the frequency on the frequency generator.
+- Looking for the fundamental, first harmonic, second harmonic etc, and talking about stringed instruments.
+- Hitting or blowing across the pan pipes to make a noise.
+- Putting your ear to the pan pipes - they make a noise even when not hit or blown.
+
+Other things to talk about:
+- Building design to withstand earthquakes.
+- Seismic waves.
+- How wind instuments work
+- Resonance in cars, taps etc.
+
+Tips for demonstrating:
+- Everyone enjoys turning the handle on the earthquake table. Try to make people, even little children, take turns. The 'cello is better for older kids, especially those who seemed to understand what was going on with the tower...
+- The experiment links well with Seeing Sound, and can share equipment and demonstrators.
+
+\*\*\* BASIC PROCEDURE AND EXPLANATION \*\*\*
+
+- Start by getting someone to turn the handle of the earthquake table slowly. A tower three blocks high works best. It shouldn't shake very far. Then ask what they think it will do if they shake it much faster. Will it wobble more?
+
+- It doesn't (or, at least, not much). Now get them to try an intermediate speed. It should be possible to get the tower shaking a long way at jusrt the right speed. You may need to practise doing this to show unconvinced children with poor handle control.
+
+- Try to explain why this happens. The swing is useful here: to make someone swing higher, you push them once every time they come past, so that they build up a little bit more each time. Get the kids to do this to the dog. Also show them that pushing at the wrong rate means that you're sometimes speeding him up and sometimes slowing him down, which is why it doesn't work properly. Then show them that it also works when you wobble the base of the swing: just the right rate makes the dog swing high.
+
+- The kids may then be able to explain why the tower seings most at a particular frequency, and might want to talk about designing buildings to withstand earthquakes.
+
+- The pan pipes make a sound if you blow across (not into) the ends, or hit then with bats or bits of card. Explain that this is the air inside shaking inside, and link in with the Seeing Sound experiment if it's about. It's possible to use the slinky spring to get across the idea of a standing wave.
+
+- The pan pipes also make a sound when you put your ear next to the end and listen. This is becasue any sound in the room at the right frequency is magnified by the resonant pipes.
+
+- Introduce the 'cello, showing that it makes a sound when plucked or bowed, just like a real one. Then start the driver at a very low frequency, so that the string can be seen to be moved up or down.
+
+- Get the kids to play with the frequency control, and explain that the magnet on the string can be moving so fast that it looks blurred. See if they can find the right frequency for the string to shake a lot. As before, explain that this is the frequency at which the string likes to vibrate if it's plucked. You may need to find it for them, or at least point them to the right range.
+
+- This was the fundamental frequency. See if you can find the first harmonic, where one side of the sting is going up, one side is going down, and the middle (called a node) is staying still. You should be able to see the shape by eye. Then there's the second harmonic, and so on.
+
+\*\*\* OTHER THINGS TO TALK ABOUT \*\*\*
+
+- All sorts of things can resonate, and we'd often rather they didn't. Many people will have heard about the millenium footbridge in London, which wobbled as people found themselves walking in step with the wobbling. It had to be closed, and was fixed by fitting damping, which is also the way a car's suspension tries to avoid resonating. Going further back, the Tacoma Narrows bridge failed catastrophically due to resonance with the wind.
+
+- The 'cello's driver does the job of a pick-up in an electric guitar, but in reverse, and works in much the same way.
+
+- Serious string players can get harmonics to sound on a string by putting a finger lightly where they want the node to be. A little of the harmonics is excited each time the note is played, though, along with the fundamental, and the exact pattern of harmonics determines the timbre of the note.
+
+- The first harmonic is an octave above the fundamental, and the second harmonic a perfect fifth above the first. This may make sense to musicians, though they might object that the intervals aren't quite right, which is because of the distortion caused by the mass of the magnet and the position of the driver.
+
+- It would be nice to see the 'cello string in slow motion, which can be achieved by a stroboscopic light. There are safety issues in using certain strobe lamps, but it may be possible to tune the 'cello string to resonate at a frequency close to that of mains fluorescent lighting. Explaining the stroboscopic effect is fun with brighter kids.
+
+\*\*\* SCIENCE BACKGROUND FOR DEMONSTRATORS \*\*\*
+
+Anything that you know about resonance will come in useful for this experiment. Most things can be modelled as damped, driven harmonic oscillators, yielding a second-order differential equation with a sinusoidal right-hand side and a familiar set of solutions. Trying to go into mathematical detail with little children is a mistake, though. Even the words \`resonant frequency' can be off-putting.
+
+You may like to note (so to speak) that the pan pipes are tuned to a pentatonic scale.
+
+Risk Assessment
+Date risk assesment last checked: 
+
+<span class="date-display-single">Thu, 29/12/2016</span>
+
+Risk assesment checked by: 
+
+Andrei Ruskuc
+
+Date risk assesment double checked: 
+
+<span class="date-display-single">Wed, 01/02/2017</span>
+
+Risk assesment double-checked by: 
+
+Mattlem
+
+Risk Assessment: 
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>DESCRIPTION</td>
+<td>Using various models to explain the concept of resonance. There's a box, which shakes a model tower (held together by magnets) when a handle is turned. There's a model swing with a dog, a set of large plastic tubes on a piece of wood, and a 'cello string attached to some electronics which drive it at different frequencies.</td>
+</tr>
+<tr class="even">
+<td>RISKS</td>
+<td>1. Falling box or tower blocks could hit children on the head, hands or foot.
+2. Finger trap between the handle of the box and the table on which it's mounted, or between magnets.
+3. Finger trap in folding cello
+4. Cello string breaking, and hitting someone
+5. Cello bow poking someone in the eye
+6. The board that the pan pipes are on is heavy and may fall on children</td>
+</tr>
+<tr class="odd">
+<td>ACTION TO BE TAKEN TO MINIMISE RISKS</td>
+<td>1. Tape the box to a table, and not so high that falling tower blocks could hit children on the head.
+2. Mount the box with the handle far enough clear of the table that there's no possibility of a finger trap. Collect any magnets which work loose from the model, so that they're not played with.
+3. Be careful when setting up/packing away.
+4. Don't use string if obviously damaged<br />
+<br />
+The cello string shouldn't be tensioned very high, and use a wire wrapped string so it won't fail spectacularly
+5. Supervise children carefully and make sure no one is standing where they could be poked
+6. Ensure that the pipe-board is positioned carefully and taped down where appropriate.</td>
+</tr>
+<tr class="even">
+<td>ACTION TO BE TAKEN IN THE EVENT OF AN ACCIDENT</td>
+<td>1-6. Call first aider in case of injury.</td>
+</tr>
+</tbody>
+</table>
+
+This experiment contains mains electrical parts, see separate risk assessment.
+
+0
+
+Images
+Experiment logo: 
+
+<img src="http://www.chaosscience.org.uk/sites/default/files/exptimages/logos/resonance.png?1326583610" class="imagefield imagefield-field_experiment_logo" width="238" height="238" />
+
+Publicity photo: 
+
+<img src="http://www.chaosscience.org.uk/sites/default/files/exptimages/publicity/resonance_family_0.JPG?1325967288" class="imagefield imagefield-field_experiment_publicity" width="437" height="480" />
+
+Experiment photos: 
+
+<img src="http://www.chaosscience.org.uk/sites/default/files/exptimages/explanatory/resonance_kit%20%282%29_0.JPG?1325967305" class="imagefield imagefield-field_experiment_photos" width="640" height="480" />
+
+-   [Standard](http://www.chaosscience.org.uk/taxonomy/term/24 "A standard CHaOS experiment, useable for all hands-on events.") <span class="print-footnote">\[1\]</span>
+-   [Physics](http://www.chaosscience.org.uk/taxonomy/term/14) <span class="print-footnote">\[2\]</span>
+-   [Active](http://www.chaosscience.org.uk/taxonomy/term/19 "Experiment has working equipment at the time of last update, and is available for events.") <span class="print-footnote">\[3\]</span>
+
+****
+
+------------------------------------------------------------------------
+
+**Source URL (retrieved on *06/08/2017 - 11:48*):** <http://www.chaosscience.org.uk/experiments/resonance>
+
+**Links:**
+\[1\] http://www.chaosscience.org.uk/taxonomy/term/24
+\[2\] http://www.chaosscience.org.uk/taxonomy/term/14
+\[3\] http://www.chaosscience.org.uk/taxonomy/term/19
+
